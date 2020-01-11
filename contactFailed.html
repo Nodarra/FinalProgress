@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Dino Sisic">
+    <title>Dino Sisic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div class="main-navigation">
+            <ul class="main--nav">
+                <li class="nav">
+                    <a href="index.html" id="home" target="" title="About me" class="btn-nav">
+                        <strong>HOME</strong>
+                    </a>
+                </li>
+                <li class="nav">
+                    <a href="aboutMe.html" id="about" target="" title="About me" class="btn-nav">
+                        <strong>ABOUT ME</strong>
+                    </a>
+                </li>
+                <li class="nav">
+                    <a href="education.html" id="education" target="" title="Education" class="btn-nav">
+                        <strong>EDUCATION</strong>
+                    </a>
+                </li>
+                <li class="nav">
+                    <a href="skills.html" id="skills" target="" title="Experiance" class="btn-nav">
+                        <strong>SKILLS</strong>
+                    </a>
+                </li>
+                <li class="nav">
+                    <a href="contact.html" id="contact" target="" title="More" class="btn-nav">
+                        <strong>CONTACT</strong>
+                    </a>                    
+                </li>
+            </ul>
+        </div>
+
+        <div class="five">
+            <div class="contact">
+                <div class="info">
+                    <p>DINO SISIC</p>
+                    <p>Mobile: 060/300-8382</p>
+                    <p>Email: sisicdino4@gmail.com</p>
+                    <p>Adress: Hrasnicka cest 15</p>
+                </div>
+                <div class="social-media">                
+                    <ul class="media--list">
+                        <li class="media">
+                            <a href="https://www.instagram.com/nodarra/" target="_blank" title="Instagram" class="btn"> 
+                                <img class="instagram" src="icon/instagram.svg">
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="https://www.facebook.com/dino.n.sisic" target="_blank" title="Facebook" class="btn"> 
+                                <img class="facebook" src="icon/fb.svg">
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="https://www.upwork.com/ab/find-work/" target="_blank" title="UpWork" class="btn"> 
+                                <img class="upwork" src="icon/upwork.svg">
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="mailto:sisicdino4@gmail.com" target="_top" title="Email" class="btn">
+                                <img class="email" src="icon/mail-agenda.svg">
+                            </a>
+                        </li>
+                    </ul>                   
+                </div>
+                <div class="mess">
+                    <form class="contact-me" action="insert.php" method="POST">                
+                        <div class="name-input">
+                            <br>
+                            <span>Your Name</span>
+                            <input class="input-name" type="text" name="name" placeholder="Enter your name" required>
+                            <br>
+                        </div>
+        
+                        <div class="email-input">
+                            <br>
+                            <span>Your Email</span>
+                            <input class="input-email" type="text" name="email" placeholder="Enter your email" required>
+                            <p class="error">Invalid email input</p>
+                        </div>
+        
+                        <div class="message-input">
+                            <span>Message</span>
+                            <textarea class="input-text" name="message" placeholder="Your message here..." required></textarea>
+                            <br>
+                        </div>      
+                        <input class="contact-form-btn" type="submit" value="Submit">
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>

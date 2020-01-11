@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Dino Sisic">
+    <title>Dino Sisic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div class="main-navigation">
+            <ul class="main--nav">
+                <li class="nav">
+                    <a href="index.html" id="home" target="" title="About me" class="btn-nav">
+                        <strong>HOME</strong>
+                    </a>
+                </li>
+                <li class="nav">
+                    <a href="aboutMe.html" id="about" target="" title="About me" class="btn-nav">
+                        <strong>ABOUT ME</strong>
+                    </a>
+                </li>
+                <li class="nav">
+                    <a href="education.html" id="education" target="" title="Education" class="btn-nav">
+                        <strong>EDUCATION</strong>
+                    </a>
+                </li>
+                <li class="nav">
+                    <a href="skills.html" id="skills" target="" title="Experiance" class="btn-nav">
+                        <strong>SKILLS</strong>
+                    </a>
+                </li>
+                <li class="nav">
+                    <a href="contact.html" id="contact" target="" title="More" class="btn-nav">
+                        <strong>CONTACT</strong>
+                    </a>                    
+                </li>
+            </ul>
+        </div>
+
+        <div class="three">  
+            <div class="page-one">
+                <img class="skola1" src="media/oskola.jpg">
+                <div class="description">
+                    <h1 class="heading">Primary school “Edhem Mulabdić” (2004 - 2013)</h1>
+                    <h3 class="text">
+                        Was a straight A student during the whole primary school period. 
+                        Part of school’s mathematical team that went on competitions within 
+                        the country. Volleyball team member.
+                    </h3>
+                </div>
+            </div>
+
+            <div class="page-one">
+                <img class="skola1" src="media/sskola.jpg">
+                <div class="description">
+                    <h1 class="heading">High School “Prva Gimnazija u Zenici” (2013 - 2017)</h1>
+                    <h3 class="text">
+                        A class student. Involved in school projects “Improvement of turismo in BiH”. 
+                        Debate team member, organized by English professors. Part of debate group that 
+                        went on mountain Bjelašnica to talk about relations between ethnical groups in BiH, 
+                        organized by US Embassy. Participant in European Youth Parliament debates.
+                    </h3>
+                </div>
+            </div>
+
+            <div class="page-one">
+                <img class="skola1" src="media/ius.jpg">
+                <div class="description">
+                    <h1 class="heading">University International University of Sarajevo (FENS) (2017- )</h1>
+                    <h3 class="text">
+                        Third year bachelor student. Member of a faculty group DEVIUS (Developers IUS)
+                    </h3>
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="slide-pointer">
+                <span class="pointer" onclick="currentSlide(1)"></span> 
+                <span class="pointer" onclick="currentSlide(2)"></span> 
+                <span class="pointer" onclick="currentSlide(3)"></span> 
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
